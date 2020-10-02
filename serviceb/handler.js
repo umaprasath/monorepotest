@@ -5,7 +5,11 @@ module.exports.hello = async (event, context) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: 'Hello change!',
+        "orders":[{
+            "order":{
+              "id":"Order 1"
+            }
+        }],
         input: event,
       },
       null,
