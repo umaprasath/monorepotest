@@ -6,10 +6,14 @@ module.exports.hello = async (event, context) => {
     body: JSON.stringify(
       {
         "orders":[{
-            "order":{
+          
               "id":"Order 1"
-            }
-        }],
+          
+        },{
+          
+          "id":"Order 2"
+      
+    }],
         input: event,
       },
       null,
