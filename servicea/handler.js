@@ -21,7 +21,9 @@ module.exports.hello = async (event, context) => {
   return {
     statusCode: 200,
     body: JSON.stringify(
-      {
+      { "products":[{
+        "name":"product name"
+      }],
         message: 'Service a changed ',
         input: event,
       },
