@@ -14,7 +14,7 @@ module.exports.hello = async (event, context) => {
           "id":"Order 2"
       
     }],
-        input: event,
+        //input: event,
       },
       null,
       2
