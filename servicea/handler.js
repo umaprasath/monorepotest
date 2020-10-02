@@ -22,7 +22,7 @@ module.exports.hello = async (event, context) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: 'Service a change',
+        message: 'Service a changed ',
         input: event,
       },
       null,
