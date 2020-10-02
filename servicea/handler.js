@@ -24,8 +24,8 @@ module.exports.hello = async (event, context) => {
       { "products":[{
         "name":"product name"
       }],
-        message: 'Service a changed ',
-        input: event,
+        // message: 'Service a changed ',
+        // input: event,
       },
       null,
       2
